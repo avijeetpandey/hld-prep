@@ -1,1 +1,0 @@
-## High level design for whatsapp
