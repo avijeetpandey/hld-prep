@@ -71,3 +71,18 @@ Kafka is a messaing queue that is maninly used for log aggregation , stream proc
 When it comes to scale kafka we can add more partitions to the topics , that encourages more parallel reads
 When a consumer leave or join kafka pauses to redistribute work, in this case it could become a bottleneck
 
+## Elasticsearch
+Elasticsearch is an open source search and analytics engine built on top of apacehe leucine, while traditional databases are mostly build for looking up a particular item in the database, elastic search is used to search the entire library.
+
+it works with something called *Inverted index* , it breaks every word into map of words and then when you search it gives the index which contains the key.
+
+Useful for 
+- Search operations
+- Scalability
+- Agregations
+- Logging mechanism
+
+Cons
+- Cant be used for storing records as not optimised for heavy ready
+- Very expensive on ram to keep the indexes hot
+- No ACID properties like SQL
